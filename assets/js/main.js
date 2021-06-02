@@ -1,4 +1,8 @@
 $(document).ready(function () {
+  // Tooltip
+  $('[data-toggle="tooltip"]').tooltip();
+
+  // Animación Nav Smooth
   $("a").click(function (event) {
     event.preventDefault();
 
