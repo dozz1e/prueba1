@@ -54,6 +54,7 @@ ul {
 
 #presentacion span {
   background: var(--celeste);
+  cursor: pointer;
   padding: 5px;
 }
 

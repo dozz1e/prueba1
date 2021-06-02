@@ -2,6 +2,9 @@ $(document).ready(function () {
   // Tooltip
   $('[data-toggle="tooltip"]').tooltip();
 
+  // Popover
+  $('[data-toggle="popover"]').popover();
+
   // Animación Nav Smooth
   $("a").click(function (event) {
     event.preventDefault();
